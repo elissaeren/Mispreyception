@@ -1,7 +1,7 @@
 header, main, nav, footer, figure, figcaption, aside, section, article { display: block; }
 
 body {
-    background-color: #ffffff;
+    /*background-color: #000000;*/
      color: #666666;
     font-family: "Minion Pro", "Helvetica", serif;
 }
@@ -12,7 +12,7 @@ body {
             width: 100%;
             min-width: 960px;
             max-width: 2048px;
-            background-color: #90C7E3;
+            background-color: #FFF;
         }
 
     header {
@@ -31,6 +31,7 @@ body {
     }
 
     nav {
+        font-family: "Futura", "Helvetica", sans-serif;
         font-weight: lighter;
         font-variant-caps: all-small-caps;
         padding: 20px;
@@ -50,15 +51,15 @@ body {
         }
 
             nav a:link {
-                color: #000033; 
+                color: #000000; 
             }
 
             nav a:visited {
-                color: #344873;    
+                color: #431211;    
             }
             
             nav a:hover {
-                color: #FFF;
+                color: #BFE5E9;
             }
 
     main {
@@ -71,8 +72,10 @@ body {
         h1 {
             margin-bottom: 0;
             margin-top: 0;
-            font-family: "Minion Pro", "Georgia", "Times New Roman", serif;
+            font-family: "Futura", "Helvetica", sans-serif;
             font-variant-caps: all-small-caps;
+            font-style: normal;
+            font-weight: 100;
         }
 
         h2 {
@@ -128,9 +131,11 @@ body {
         }
 
     footer {
-        font-family: "Georgia", "Times New Roman", serif;
-        font-style: italic;
-        font-size: 75%;
+        font-family: "Futura", "Helvetica", sans-serif;
+        font-weight: lighter;
+        font-variant-caps: all-small-caps;
+            
+        font-size: 85%;
         text-align: center;
         margin-left: 190px;
         background-color: #FFF;
@@ -188,6 +193,9 @@ body {
     
     footer {
         margin-left: 0;
+        font-family: "Futura", "Helvetica", sans-serif;
+        font-weight: lighter;
+        font-variant-caps: all-small-caps;
     }
 }
 
