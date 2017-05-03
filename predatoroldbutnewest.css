@@ -8,173 +8,86 @@ body {
     border: 20px solid #BFE5E9;
 }
 
-        #wrapper {
-            /* margin-left: none;
-            margin-right: none; */
+ #wrapper {
+            margin-left: none;
+            margin-right: none;
             width: 100%;
             min-width: 960px;
             max-width: 2048px;
+        }
+
+header {
+        background-color: #000000;
+        color: #FFF;
+        
+        text-align: center;
+        font-family: "Futura", "Helvetica", sans-serif;
+        font-variant-caps: all-small-caps;
+        
+        height: 60px;
+}
+
+nav { 
+        font-weight: lighter;
+        font-variant-caps: all-small-caps; 
+        position: absolute;
+        top: 20px;
+        /* top: 0; /*nav bar meets perfect top edge */ */
+    }
+
+    nav ul {
+            list-style-type: none;
+            margin: 0;
+            overflow: hidden;
+            font-size: 1.2em;
             background-color: #FFF;
         }
 
-    header {
-        background-color: #000000;
-        padding: 10px;
-        height: 50px;
-        
-        color: #FFF;
-        text-align: center;
-        font-kerning: auto;
-    }
-
-    nav {
-        font-family: "Futura", "Helvetica", sans-serif;
-        font-weight: lighter;
-        font-variant-caps: all-small-caps;
-        padding: 20px;
+    nav li {
         float: left;
-        width: 160px;
     }
 
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding-left: 0;
-            font-size: 1.2em;
-        }
+    nav li a {
+        display: block;
+        color: #000;
+        text-align: center;
+        text-decoration: none;
+        padding: 3px 9px 4px; /*spaces text out*/
+    }
 
-        nav a {
-            text-decoration: none; 
-        }
-
-            nav a:link {
-                color: #000000; 
+            /* nav a:link {
+                color: #000033; 
             }
 
             nav a:visited {
-                color: #431211;    
+                color: #344873; */    
             }
             
             nav a:hover {
-                color: #BFE5E9;
+                color: #FFF;
             }
 
-    main {
+main {
         padding: 1px 20px 30px;
         display: block; 
         background-color: #FFF;
-        margin-left: 190px;
     }
 
-        /* Style inputs with type="text", select elements and textareas */
-        input[type=text], select, textarea {
-            width: 100%; /* Full width */
-            padding: 12px; /* Some padding */  
-            border: 1px solid #ccc; /* Gray border */
-            border-radius: 4px; /* Rounded borders */
-            box-sizing: border-box; /* Make sure that padding and width stays in place */
-            margin-top: 6px; /* Add a top margin */
-            margin-bottom: 16px; /* Bottom margin */
-            resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-        }
-
-        /* Style the submit button with a specific background color etc */
-        input[type=submit] {
-            background-color: #431211;
-            color: white;
-            padding: 12px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-
-        /* When moving the mouse over the submit button, add a darker green color */
-        input[type=submit]:hover {
-        background-color: #BFE5E9;
-}
-
-        /* Add a background color and some padding around the form */
-        .container {
-            border-radius: 5px;
-            background-color: #f2f2f2;
-            padding: 20px;
-        }
-
-        h1 {
-            margin-bottom: 0;
-            margin-top: 0;
-            font-family: "Futura", "Helvetica", sans-serif;
+h1 {
+            margin-top: 38px; /* shitty fix for nav bar not displaying necessary width */
             font-variant-caps: all-small-caps;
-            font-style: normal;
-            font-weight: 100;
+            font-weight: 300;
         }
 
-        h2 {
-            color: #3399CC; 
-            font-family: "Georgia", "Times New Roman", serif;
-            text-shadow: 1px 1px #CCCCCC;
-        }
-
-        main ul {
-            list-style-image: url(marker.gif);    
-        }
-
-        h3 {
-            font-family: "Georgia", "Times New Roman", serif;
-            color: black;
-        }
-
-        dt {
-            color: #000033;    
-        }
-
-        .resort {
-            color: #5C7FA3;
-            font-weight: bold;
-        }
-
-        #contact {
-            font-size: 90%;    
-        }
-
-        #homehero {
-            height: 300px;
-            background-image: url(coasthero.jpg);
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
-            margin-left: 190px;
-        }
-
-        #vulture {
-            height: 432px;
-            background-image: url(vultureflying.jpg);
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
-            margin-left: 190px;
-        }
-
-        #trailhero {
-            height: 300px;
-            background-image: url(trailhero.jpg);
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
-            margin-left: 190px;
-        }
-
-    footer {
-        font-family: "Futura", "Helvetica", sans-serif;
-        font-weight: lighter;
-        font-variant-caps: all-small-caps;
-            
-        font-size: 85%;
+footer {
+        font-family: "Futura", sans-serif;
+        font-size: 75%;
         text-align: center;
-        margin-left: 190px;
-        background-color: #FFF;
+        background-color: #431211;
+        height: 60px;
         
         padding: 20px 20px 20px;
     }
-
-
 
 @media only screen and (max-width: 64em) {
     body {
@@ -207,26 +120,8 @@ body {
             padding-right: 0.75em;
         }
     
-        #homehero {
-            margin-left: 0;
-            height: 200px;
-        }
-
-        #yurthero {
-            margin-left: 0;
-            height: 200px;
-        }
-
-        #trailhero {
-            margin-left: 0;
-            height: 200px;
-        }
-    
     footer {
         margin-left: 0;
-        font-family: "Futura", "Helvetica", sans-serif;
-        font-weight: lighter;
-        font-variant-caps: all-small-caps;
     }
 }
 
@@ -263,46 +158,7 @@ body {
         display: block;
     }
     
-        #homehero {
-            background-image: none;
-            height: 0;
-        }
-    
-        #yurthero {
-            background-image: none;
-            height: 0;
-        }
-    
-        #trailhero {
-            background-image: none;
-            height: 0;
-        }
-    
     #mobile { display: inline; }
     
     #desktop { display: none; }
 }
-
-
-table { 
-    border-spacing: 0;
-    width: 80%;
-    border: 1px solid #3399CC; 
-}
-
-    td,th { 
-        padding: 5px;
-        border: 1px solid #3399CC; 
-    }
-
-    td { 
-        text-align: center; 
-    }
-
-    .text { 
-        text-align: left; 
-    }
-
-    tr:nth-of-type(even) { 
-        background-color: #F5FAFC; 
-    }
