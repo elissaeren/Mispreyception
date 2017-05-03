@@ -4,8 +4,8 @@ html, body { margin: 0; padding: 0; } /* Makes the border element flush with pag
 
 body {
     color: #666666;
-    font-family: "Minion Pro", "Helvetica", serif;
-    border: 20px solid #c0e6ea;
+    font-family: "Minion Pro", "Times New Roman", serif;
+    border: 20px solid #BFE5E9;
 }
 
         #wrapper {
@@ -19,17 +19,12 @@ body {
 
     header {
         background-color: #000000;
+        padding: 10px;
+        height: 50px;
+        
         color: #FFF;
-        
-        background-image: url(sunset.jpg);
-        background-repeat: no-repeat;
-        background-position: right;
-        
         text-align: center;
-        
-        padding: 15px 0 0;
-        
-        height: 60px;
+        font-kerning: auto;
     }
 
     nav {
