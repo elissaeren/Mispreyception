@@ -173,6 +173,35 @@ footer .socialmedia a{
     padding: 10px 0 10px;
 }
 
+footer .privacy {
+    font-weight: lighter;
+    font-variant-caps: all-small-caps; 
+    font-family: "Futura", sans-serif;
+    position: absolute;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+}
+
+    .privacy ul {
+        list-style-type: none;
+        margin: 0 auto;
+        overflow: hidden;
+        display: table;
+    }
+
+    .privacy li {
+        float: left;
+        padding: 10px 10px 10px;
+    }
+
+    /* .privacy li a {
+        color: #000;
+        text-decoration: none; 
+        padding: 5px 5px 5px; /*spaces text out
+    } */
+
 
 @media only screen and (max-width: 64em) {
     body {
