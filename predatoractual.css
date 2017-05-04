@@ -196,11 +196,23 @@ footer .privacy {
         padding: 10px 10px 10px;
     }
 
-    /* .privacy li a {
-        color: #000;
+    .privacy ul a {
+        color: #000000;
         text-decoration: none; 
-        padding: 5px 5px 5px; /*spaces text out
-    } */
+        padding: 5px 5px 5px; /*spaces text out*/
+    }
+        
+        .privacy ul a:hover{
+            color: #c0e4e8;
+        }
+
+        .privacy ul a:visited{
+            color: #490e0d;    
+        }
+
+        .privacy ul a:active{
+            color: black;
+        }
 
 
 @media only screen and (max-width: 64em) {
