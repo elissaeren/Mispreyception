@@ -73,6 +73,38 @@ main {
         background-color: #FFF;
     }
 
+.learn { 
+        font-weight: lighter;
+        font-style: italic;
+        position: absolute;
+        text-align: left;
+        width: 92%;
+    }
+
+    .learn ul {
+            list-style-type: none;
+            margin: 0;
+            overflow: hidden;
+            font-size: 1em;
+            background-color: #FFF;
+        }
+
+    .learn li {
+        float: left;
+    }
+
+    .learn li a {
+        display: block;
+        color: #490e0d;
+        text-align: center;
+        text-decoration: none;
+        padding: 3px 9px 4px; 
+    }
+
+            /*.learn a:hover {
+                color: #FFF;
+            } */
+
 .terms {
     width: 60%;
     padding: 10px 40px 10px;
@@ -86,7 +118,7 @@ main {
 
     .terms h3 {
         font-family: "Minion Pro", serif;
-        font-size: 85%;
+        font-size: 90%;
         width: 80%;
         font-weight: 200;
     }
@@ -220,7 +252,7 @@ footer .privacy {
         padding: 5px 5px 5px; /*spaces text out*/
     }
         
-        .privacy ul a:hover{
+        .privacy li a:hover{
             color: #c0e4e8;
         }
 
