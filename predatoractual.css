@@ -73,6 +73,24 @@ main {
         background-color: #FFF;
     }
 
+.terms {
+    width: 60%;
+    padding: 10px 40px 10px;
+}
+
+    .terms h2 {
+        font-family: "Futura", sans-serif;
+        font-size: 110%;
+        font-weight: 400;
+    }
+
+    .terms h3 {
+        font-family: "Minion Pro", serif;
+        font-size: 85%;
+        width: 80%;
+        font-weight: 200;
+    }
+
 
 /* Style inputs with type="text", select elements and textareas */
         input[type=text], select, textarea {
