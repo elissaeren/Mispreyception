@@ -157,6 +157,25 @@ footer {
         margin: 0 auto;
     }
 
+footer .socialmedia a{
+    display:inline-block; 
+    width: 30px;
+    padding: 10px 0 10px;
+}
+
+/* .socialmedia {
+}
+
+    .insta {
+        width: 40px;
+        height: 40px;
+    }
+
+    .twitter {
+        width: 40px;
+        height: 40px;
+    } */
+
 @media only screen and (max-width: 64em) {
     body {
         margin: 0;
