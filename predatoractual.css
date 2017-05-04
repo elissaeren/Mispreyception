@@ -1,6 +1,6 @@
 header, main, nav, footer, figure, figcaption, aside, section, article { display: block; }
 
-html, body { margin: 0; padding: 0; } /* Makes the border element flush with page edge */ 
+html, body { margin: 0; padding: 0; } /* Makes the border element flush with page edge */
 
 body {
     color: #666666;
@@ -114,17 +114,47 @@ main {
         }
 
 footer {
-        font-family: "Futura", sans-serif;
-        font-size: 75%;
         text-align: center;
-        background-color: #431211;
-        height: 60px;
+        /* background-color: #431211; */
+        height: 300px;
+        /* width: 50%;*/ 
         
         padding: 20px 20px 20px;
     }
 
     footer p {
+        font-family: "Futura", sans-serif;
+        font-size: 75%;
         padding: 2px;
+        height: 30px;
+    }
+
+.subscription { /* overall red container, includes subscription text and email box*/
+    background-color: #431211;
+    height: 175px;
+    width: 60%;
+    padding: 10px 0 7px;
+    margin: auto;
+}
+
+    .newsletter {
+        font-family: "Futura", sans-serif;
+        color: #f2f2f2;
+        font-size: 175%;
+        font-variant-caps: all-small-caps;
+    }
+
+        .signup {
+            font: "Minion Pro", serif;
+            color: #f2f2f2;
+            font-style: italic;
+            font-size: 85%; 
+        }
+
+    .subscribe {
+        width: 70%;
+        padding: 20px;
+        margin: 0 auto;
     }
 
 @media only screen and (max-width: 64em) {
